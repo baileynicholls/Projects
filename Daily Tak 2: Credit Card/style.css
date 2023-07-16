@@ -1,0 +1,73 @@
+body {
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Caveat', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+}
+
+.title-img {
+    height: 200px;
+    
+}
+
+.title-head {
+
+}
+
+.title-subhead {
+
+}
+
+.container {
+    position: ;
+}
+.method-heading {
+position: static;
+
+}
+
+
+.method-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+
+}
+.credit-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    border: solid #DDE6ED 2px;
+}
+.paypal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid #DDE6ED 2px;
+    height: 200px;
+    width: 400px;
+}
+
+.img {
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 1rem;
+}
