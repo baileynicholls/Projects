@@ -1,10 +1,15 @@
-body {
-
-}
-
-
 p {
 font-family: 'Quicksand', sans-serif;
+}
+
+.title-container {
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+}
+.title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4rem;
 }
 
 .title-img {
@@ -13,8 +18,59 @@ font-family: 'Quicksand', sans-serif;
     
 }
 
-.title-container {
+.title-text {
+    position: absolute;
+    width: 50%;
+    top: 100px;
+    left: 25%;
+    margin: 20px;
+}
+
+.title-name {
+    font-size: 6rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.sign-heading {
     text-align: center;
-    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    color: deepskyblue;
+}
+
+.form {
+    padding: 60px;
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-floating {
+    height: 4%;
+    width: 600px;
+}
+.btn-light {
+    height: 4%;
+    font-size: 12px;
+}
+
+.event-container {
+    text-align: center;
+}
+.event-title {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.event-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 200px 200px;
+    padding: 20px;
+}
+
+.event-container h2 {
+    font-weight: 600;
 }
 
